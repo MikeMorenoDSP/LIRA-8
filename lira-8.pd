@@ -1,0 +1,193 @@
+#N canvas 672 264 1029 742 10;
+#X declare -path ./abs;
+#X obj 820 311 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 820 331 metro 50;
+#X obj 820 352 tabwrite~ \$0-scope;
+#N canvas 0 22 450 278 (subpatch) 0;
+#X array \$0-scope 100 float 1;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0;
+#X coords 0 1 99 -1 200 140 1;
+#X restore 770 569 graph;
+#N canvas 0 22 646 544 gui 0;
+#X obj 11 11 cnv 19 383 500 empty empty LIRA•8 300 18 0 20 -261045
+-1 0;
+#X obj 38 275 vsl 19 128 0 127 0 1 \$0-s-tune-1 \$0-r-tune-1 TUNE -5
+-10 0 14 -262144 -1 -1 8400 1;
+#X obj 41 233 hsl 54 19 0 127 0 1 \$0-s-sharp-12 \$0-r-sharp-12 SHARP
+5 -8 0 14 -1 -262144 -1 3900 1;
+#X obj 41 193 hsl 54 19 0 127 0 1 \$0-s-mod-12 \$0-r-mod-12 MOD 14
+-8 0 14 -1 -262144 -1 3900 1;
+#X obj 78 275 vsl 19 128 0 127 0 1 \$0-s-tune-2 \$0-r-tune-2 TUNE -5
+-10 0 14 -262144 -1 -1 6800 1;
+#X obj 59 424 tgl 17 1 \$0-s-fast-12 \$0-r-fast-12 FAST -3 -7 0 12
+-262144 -1 -1 0 1;
+#X obj 33 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 38 470 tgl 19 1 \$0-s-sensor-1 \$0-r-sensor-1 1 5 -10 0 14 -262144
+-1 -262144 0 1;
+#X obj 73 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 78 470 tgl 19 1 \$0-s-sensor-2 \$0-r-sensor-2 2 5 -10 0 14 -262144
+-1 -262144 0 1;
+#X obj 123 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 128 470 tgl 19 1 \$0-s-sensor-3 \$0-r-sensor-3 3 5 -10 0 14
+-262144 -1 -262144 0 1;
+#X obj 163 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 168 470 tgl 19 1 \$0-s-sensor-4 \$0-r-sensor-4 4 5 -10 0 14
+-262144 -1 -262144 0 1;
+#X obj 213 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 218 470 tgl 19 1 \$0-s-sensor-5 \$0-r-sensor-5 5 5 -10 0 14
+-262144 -1 -262144 0 1;
+#X obj 253 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 258 470 tgl 19 1 \$0-s-sensor-6 \$0-r-sensor-6 6 5 -10 0 14
+-262144 -1 -262144 0 1;
+#X obj 303 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 308 470 tgl 19 1 \$0-s-sensor-7 \$0-r-sensor-7 7 5 -10 0 14
+-262144 -1 -262144 0 1;
+#X obj 343 446 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577
+0;
+#X obj 348 470 tgl 19 1 \$0-s-sensor-8 \$0-r-sensor-8 8 5 -10 0 14
+-262144 -1 -262144 0 1;
+#X obj 49 113 hsl 128 19 0 127 0 1 empty empty PITCH 40 -8 0 14 -1
+-262144 -1 4800 1;
+#X obj 229 113 hsl 128 19 0 127 0 1 empty empty PITCH 40 -8 0 14 -1
+-262144 -1 0 1;
+#X obj 39 153 hradio 19 1 1 3 empty empty MOD 14 -10 0 14 -262144 -1
+-1 0;
+#X obj 129 153 hradio 19 1 1 3 empty empty MOD 14 -10 0 14 -262144
+-1 -1 0;
+#X obj 219 153 hradio 19 1 1 3 empty empty MOD 14 -10 0 14 -262144
+-1 -1 0;
+#X obj 309 153 hradio 19 1 1 3 empty empty MOD 14 -10 0 14 -262144
+-1 -1 0;
+#X obj 49 73 hsl 128 19 0 127 0 1 \$0-s-hold-1234 \$0-r-hold-1234 HOLD
+45 -8 0 14 -1 -262144 -1 0 1;
+#X obj 128 275 vsl 19 128 0 127 0 1 \$0-s-tune-3 \$0-r-tune-3 TUNE
+-5 -10 0 14 -262144 -1 -1 4200 1;
+#X obj 168 275 vsl 19 128 0 127 0 1 \$0-s-tune-4 \$0-r-tune-4 TUNE
+-5 -10 0 14 -262144 -1 -1 8400 1;
+#X obj 218 275 vsl 19 128 0 127 0 1 \$0-s-tune-5 \$0-r-tune-5 TUNE
+-5 -10 0 14 -262144 -1 -1 3200 1;
+#X obj 258 275 vsl 19 128 0 127 0 1 \$0-s-tune-6 \$0-r-tune-6 TUNE
+-5 -10 0 14 -262144 -1 -1 2800 1;
+#X obj 308 275 vsl 19 128 0 127 0 1 \$0-s-tune-7 \$0-r-tune-7 TUNE
+-5 -10 0 14 -262144 -1 -1 600 1;
+#X obj 348 275 vsl 19 128 0 127 0 1 \$0-s-tune-8 \$0-r-tune-8 TUNE
+-5 -10 0 14 -262144 -1 -1 1700 1;
+#X obj 131 233 hsl 54 19 0 127 0 1 \$0-s-sharp-34 \$0-r-sharp-34 SHARP
+5 -8 0 14 -1 -262144 -1 5300 1;
+#X obj 221 233 hsl 54 19 0 127 0 1 \$0-s-sharp-56 \$0-r-sharp-56 SHARP
+5 -8 0 14 -1 -262144 -1 0 1;
+#X obj 311 233 hsl 54 19 0 127 0 1 \$0-s-sharp-78 \$0-r-sharp-78 SHARP
+5 -8 0 14 -1 -262144 -1 0 1;
+#X obj 131 193 hsl 54 19 0 127 0 1 \$0-s-mod-34 \$0-r-mod-34 MOD 14
+-8 0 14 -1 -262144 -1 1200 1;
+#X obj 221 193 hsl 54 19 0 127 0 1 \$0-s-mod-56 \$0-r-mod-56 MOD 14
+-8 0 14 -1 -262144 -1 0 1;
+#X obj 311 193 hsl 54 19 0 127 0 1 \$0-s-mod-78 \$0-r-mod-78 MOD 14
+-8 0 14 -1 -262144 -1 0 1;
+#X obj 149 424 tgl 17 1 \$0-s-fast-34 \$0-r-fast-34 FAST -3 -7 0 12
+-262144 -1 -1 0 1;
+#X obj 239 424 tgl 17 1 \$0-s-fast-56 \$0-r-fast-56 FAST -3 -7 0 12
+-262144 -1 -1 0 1;
+#X obj 329 424 tgl 17 1 \$0-s-fast-78 \$0-r-fast-78 FAST -3 -7 0 12
+-262144 -1 -1 0 1;
+#X obj 111 245 cnv 3 3 200 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 201 205 cnv 3 3 240 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 381 205 cnv 3 3 240 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 21 205 cnv 3 3 240 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 98 241 cnv 3 29 3 empty empty empty 20 12 0 14 -1 -66577 0;
+#X obj 188 201 cnv 3 29 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 278 241 cnv 3 29 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 21 201 cnv 3 16 3 empty empty empty 20 12 0 14 -1 -66577 0;
+#X obj 368 201 cnv 3 16 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 103 446 cnv 3 19 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 283 446 cnv 3 19 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 193 446 cnv 3 19 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 21 446 cnv 3 11 3 empty empty empty 20 12 0 14 -1 -66577 0;
+#X obj 291 245 cnv 3 3 200 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 373 446 cnv 3 11 3 empty empty empty 20 12 0 14 -1 -66577 0
+;
+#X obj 229 73 hsl 128 19 0 127 0 1 \$0-s-hold-1234 \$0-r-hold-1234
+HOLD 45 -8 0 14 -1 -262144 -1 0 1;
+#X obj 194 75 tgl 17 1 \$0-s-fast-34 \$0-r-fast-34 FAST -3 -7 0 12
+-262144 -1 -1 0 1;
+#X obj 164 40 tgl 17 1 \$0-s-total-fb \$0-r-total-fb TOTAL-FB -20 -7
+0 12 -262144 -1 -1 0 1;
+#X obj 234 39 tgl 17 1 \$0-s-vibrato \$0-r-vibrato VIBRATO -15 -7 0
+12 -262144 -1 -1 0 1;
+#X msg 445 256 8;
+#X obj 445 277 until;
+#X obj 445 298 i;
+#X obj 475 298 + 1;
+#X obj 445 340 t f f;
+#X obj 445 413 list prepend;
+#X obj 514 366 + 1;
+#X obj 445 361 + 1;
+#X obj 445 319 % 8;
+#X msg 445 392 receive $\\\$0-r-sensor-\\\$1;
+#X connect 63 0 64 0;
+#X connect 64 0 65 0;
+#X connect 65 0 71 0;
+#X connect 66 0 65 1;
+#X connect 67 0 70 0;
+#X connect 67 1 69 0;
+#X connect 69 0 68 1;
+#X connect 70 0 72 0;
+#X connect 71 0 66 0;
+#X connect 71 0 67 0;
+#X connect 72 0 68 0;
+#X coords 0 -1 1 1 385 502 2 10 10;
+#X restore 47 53 pd gui;
+#X obj 567 113 declare -path ./abs;
+#X obj 509 652 clip~ -1 1;
+#X obj 509 673 hip~ 3;
+#X obj 509 715 dac~ 1 2;
+#X obj 509 631 *~ 0.5;
+#X obj 509 694 *~ 0.5;
+#N canvas 1296 553 450 300 oscillators-12 0;
+#X obj 36 68 r \$0-s-tune-\$1;
+#X obj 36 89 / 127;
+#X obj 36 110 * 3;
+#X msg 36 131 2 \$1;
+#X obj 36 152 pow;
+#X obj 36 173 *;
+#X obj 78 115 loadbang;
+#X obj 78 136 f \$1;
+#X obj 78 157 * 20;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 5 1;
+#X restore 486 350 pd oscillators-12;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 6 0 7 0;
+#X connect 7 0 10 0;
+#X connect 9 0 6 0;
+#X connect 10 0 8 0;
+#X connect 10 0 8 1;
