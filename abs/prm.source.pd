@@ -3,7 +3,7 @@
 #X obj 142 154 *~;
 #X obj 412 154 *~;
 #X obj 427 132 == 2;
-#X obj 415 240 outlet~;
+#X obj 412 210 outlet~;
 #X obj 412 75 *~;
 #X obj 427 111 r \$1-s-source-\$2\$3;
 #X obj 27 34 r \$1-s-switch;
@@ -16,10 +16,10 @@
 #X obj 297 33 r \$1-s-total-fb;
 #X obj 297 54 == 0;
 #X obj 157 111 r \$1-s-source-\$2\$3;
-#X obj 282 12 inlet~;
 #X obj 12 12 delread~ \$1-del-\$4\$5;
 #X obj 142 12 delread~ \$1-del-\$6\$7;
 #X obj 412 12 delread~ \$1-total-feedback;
+#X obj 282 12 delread~ \$1-sqr-lfo;
 #X connect 0 0 1 1;
 #X connect 1 0 4 0;
 #X connect 2 0 4 0;
@@ -36,7 +36,7 @@
 #X connect 14 0 15 0;
 #X connect 15 0 13 1;
 #X connect 16 0 0 0;
-#X connect 17 0 13 0;
-#X connect 18 0 8 0;
-#X connect 19 0 10 0;
-#X connect 20 0 5 0;
+#X connect 17 0 8 0;
+#X connect 18 0 10 0;
+#X connect 19 0 5 0;
+#X connect 20 0 13 0;
