@@ -54,7 +54,7 @@ PITCH 40 -7 0 14 -1 -262144 -1 5400 1;
 #X obj 128 458 vsl 19 128 0 127 0 0 \$0-s-tune-3 \$0-r-tune-3 TUNE
 -5 -9 0 14 -262144 -1 -1 7100 1;
 #X obj 168 458 vsl 19 128 0 127 0 0 \$0-s-tune-4 \$0-r-tune-4 TUNE
--5 -10 0 14 -262144 -1 -1 9200 1;
+-5 -10 0 14 -262144 -1 -1 8100 1;
 #X obj 218 458 vsl 19 128 0 127 0 0 \$0-s-tune-5 \$0-r-tune-5 TUNE
 -5 -10 0 14 -262144 -1 -1 8700 1;
 #X obj 258 458 vsl 19 128 0 127 0 0 \$0-s-tune-6 \$0-r-tune-6 TUNE
@@ -918,6 +918,12 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X connect 18 0 19 0;
 #X connect 19 0 17 0;
 #X restore 1007 658 pd delay;
+#X obj 399 834 r \$0-s-dsp;
+#X msg 399 855 dsp \$1;
+#X obj 399 876 s pd;
+#X obj 508 903 print -n;
+#X obj 508 861 loadbang;
+#X msg 508 882 LIRA-8 by Mike Moreno Audio 2020;
 #X connect 59 0 60 0;
 #X connect 60 0 61 0;
 #X connect 61 0 67 0;
@@ -1017,6 +1023,16 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X connect 272 0 264 1;
 #X connect 272 0 265 1;
 #X connect 273 0 259 0;
+#X connect 274 0 275 0;
+#X connect 275 0 276 0;
+#X connect 278 0 279 0;
+#X connect 279 0 277 0;
 #X coords 0 -1 1 1 385 677 2 10 10;
 #X restore 32 26 pd gui;
-#X text 442 226 PRESS THE NUMBER KEYS TO PLAY!;
+#X obj 430 178 tgl 19 0 \$0-s-dsp \$0-r-dsp DSP 0 -8 0 12 -262144 -1
+-1 0 1;
+#X text 439 231 1) TURN ON THE DSP;
+#X text 439 251 2) USE THE NUMBER KEYS TO PLAY;
+#X text 439 271 3) USE THE MOUSE TO MOVE THE PARAMETERS;
+#X text 439 291 4) ENJOY!;
+#X text 429 211 INSTRUCTIONS;
