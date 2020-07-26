@@ -1,4 +1,4 @@
-#N canvas 829 455 484 479 10;
+#N canvas 829 455 658 479 10;
 #N canvas 0 22 450 425 rlpf 0;
 #X obj 177 80 samplerate~;
 #X obj 229 12 loadbang;

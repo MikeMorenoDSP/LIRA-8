@@ -5,7 +5,7 @@
 #X obj 12 117 line~;
 #X obj 12 12 r \$1-s-mod-\$2;
 #X obj 12 54 pow 2;
-#X obj 12 75 * 10;
+#X obj 12 75 * 20;
 #X connect 0 0 5 0;
 #X connect 2 0 3 0;
 #X connect 3 0 1 0;
