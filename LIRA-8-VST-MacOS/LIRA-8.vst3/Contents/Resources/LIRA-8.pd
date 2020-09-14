@@ -1,17 +1,17 @@
-#N canvas 986 22 893 1036 10;
+#N canvas 549 22 893 1036 10;
 #X declare -path ./abs;
 #X obj 0 26 cnv 19 383 675 empty empty LIRA•8 308 195 0 20 -256626
 -1 0;
 #X obj 27 473 vsl 19 128 0 127 0 0 \$0-s-tune-1 \$0-r-tune-1 TUNE -5
--9 0 14 -262144 -1 -1 0 1;
+-9 0 14 -262144 -1 -1 8200 1;
 #X obj 30 428 hsl 54 19 0 127 0 0 \$0-s-sharp-12 \$0-r-sharp-12 SHARP
 5 -7 0 14 -1 -262144 -1 0 1;
 #X obj 30 388 hsl 54 19 0 127 0 0 \$0-s-mod-12 \$0-r-mod-12 MOD 14
 -7 0 14 -1 -262144 -1 0 1;
 #X obj 67 473 vsl 19 128 0 127 0 0 \$0-s-tune-2 \$0-r-tune-2 TUNE -5
--9 0 14 -262144 -1 -1 0 1;
+-9 0 14 -262144 -1 -1 8300 1;
 #X obj 48 619 tgl 17 0 \$0-s-fast-12 \$0-r-fast-12 FAST -5 -7 0 12
--262144 -1 -1 0 1;
+-262144 -1 -1 1 1;
 #X obj 22 641 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577 0
 ;
 #X obj 27 665 tgl 19 0 \$0-s-sensor-1 \$0-r-sensor-1 1 5 -10 0 14 -262144
@@ -45,23 +45,23 @@
 #X obj 337 665 tgl 19 0 \$0-s-sensor-8 \$0-r-sensor-8 8 5 -10 0 14
 -262144 -1 -262144 0 1;
 #X obj 28 304 hsl 128 19 0 127 0 0 \$0-s-pitch-1234 \$0-r-pitch-1234
-PITCH 40 -7 0 14 -1 -262144 -1 0 1;
+PITCH 40 -7 0 14 -1 -262144 -1 6700 1;
 #X obj 228 304 hsl 128 19 0 127 0 0 \$0-s-pitch-5678 \$0-r-pitch-5678
-PITCH 40 -7 0 14 -1 -262144 -1 0 1;
+PITCH 40 -7 0 14 -1 -262144 -1 6400 1;
 #X obj 28 348 hradio 19 1 0 3 \$0-s-source-12 \$0-r-source-12 LFO-CV
 4 -7 0 14 -262144 -1 -1 2;
 #X obj 117 473 vsl 19 128 0 127 0 0 \$0-s-tune-3 \$0-r-tune-3 TUNE
--5 -9 0 14 -262144 -1 -1 0 1;
+-5 -9 0 14 -262144 -1 -1 6200 1;
 #X obj 157 473 vsl 19 128 0 127 0 0 \$0-s-tune-4 \$0-r-tune-4 TUNE
--5 -10 0 14 -262144 -1 -1 0 1;
+-5 -10 0 14 -262144 -1 -1 6700 1;
 #X obj 207 473 vsl 19 128 0 127 0 0 \$0-s-tune-5 \$0-r-tune-5 TUNE
--5 -10 0 14 -262144 -1 -1 0 1;
+-5 -10 0 14 -262144 -1 -1 5432 1;
 #X obj 247 473 vsl 19 128 0 127 0 0 \$0-s-tune-6 \$0-r-tune-6 TUNE
--5 -10 0 14 -262144 -1 -1 0 1;
+-5 -10 0 14 -262144 -1 -1 5925 1;
 #X obj 297 473 vsl 19 128 0 127 0 0 \$0-s-tune-7 \$0-r-tune-7 TUNE
--5 -10 0 14 -262144 -1 -1 0 1;
+-5 -10 0 14 -262144 -1 -1 6300 1;
 #X obj 337 473 vsl 19 128 0 127 0 0 \$0-s-tune-8 \$0-r-tune-8 TUNE
--5 -10 0 14 -262144 -1 -1 0 1;
+-5 -10 0 14 -262144 -1 -1 6400 1;
 #X obj 120 428 hsl 54 19 0 127 0 0 \$0-s-sharp-34 \$0-r-sharp-34 SHARP
 5 -7 0 14 -1 -262144 -1 0 1;
 #X obj 210 428 hsl 54 19 0 127 0 0 \$0-s-sharp-56 \$0-r-sharp-56 SHARP
@@ -71,15 +71,15 @@ PITCH 40 -7 0 14 -1 -262144 -1 0 1;
 #X obj 120 388 hsl 54 19 0 127 0 0 \$0-s-mod-34 \$0-r-mod-34 MOD 14
 -7 0 14 -1 -262144 -1 0 1;
 #X obj 210 388 hsl 54 19 0 127 0 0 \$0-s-mod-56 \$0-r-mod-56 MOD 14
--7 0 14 -1 -262144 -1 0 1;
+-7 0 14 -1 -262144 -1 5205 1;
 #X obj 300 388 hsl 54 19 0 127 0 0 \$0-s-mod-78 \$0-r-mod-78 MOD 14
--7 0 14 -1 -262144 -1 0 1;
+-7 0 14 -1 -262144 -1 3691 1;
 #X obj 138 619 tgl 17 0 \$0-s-fast-34 \$0-r-fast-34 FAST -5 -7 0 12
--262144 -1 -1 0 1;
+-262144 -1 -1 1 1;
 #X obj 228 619 tgl 17 0 \$0-s-fast-56 \$0-r-fast-56 FAST -5 -7 0 12
--262144 -1 -1 0 1;
+-262144 -1 -1 1 1;
 #X obj 318 619 tgl 17 0 \$0-s-fast-78 \$0-r-fast-78 FAST -5 -7 0 12
--262144 -1 -1 0 1;
+-262144 -1 -1 1 1;
 #X obj 100 440 cnv 3 3 200 empty empty empty 20 12 0 14 -1 -66577 0
 ;
 #X obj 190 400 cnv 3 3 240 empty empty empty 20 12 0 14 -1 -66577 0
@@ -111,7 +111,7 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 183 280 tgl 17 0 \$0-s-switch \$0-r-switch SWITCH -13 -7 0 12
 -262144 -1 -1 0 1;
 #X obj 153 235 tgl 17 0 \$0-s-total-fb \$0-r-total-fb TOTAL-FB -20
--7 0 12 -262144 -1 -1 0 1;
+-7 0 12 -262144 -1 -1 1 1;
 #X obj 223 234 tgl 17 0 \$0-s-vibrato \$0-r-vibrato VIBRATO -15 -7
 0 12 -262144 -1 -1 0 1;
 #X msg 398 768 8;
@@ -146,26 +146,26 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X msg 398 904 receive $\\\$0-tune-\\\$1;
 #X obj 109 162 hradio 19 1 0 2 \$0-s-lfo-wav \$0-r-lfo-wav SQR 0 -8
 0 14 -1 -262144 -1 1;
-#X obj 109 125 hradio 19 1 0 2 \$0-s-del-mod \$0-r-del-mod SELF 0 -7
-0 14 -1 -262144 -1 0;
+#X obj 109 125 hradio 19 1 0 2 \$0-s-del-mod \$0-r-del-mod LFO 0 -7
+0 14 -1 -262144 -1 1;
 #X obj 177 88 hsl 95 19 0 127 0 0 \$0-s-time-2 \$0-r-time-2 TIME-2
-23 -7 0 14 -1 -262144 -1 0 1;
+23 -7 0 14 -1 -262144 -1 6300 1;
 #X obj 112 88 hsl 54 19 0 127 0 0 \$0-s-mod-2 \$0-r-mod-2 MOD-2 6 -7
-0 14 -1 -262144 -1 0 1;
+0 14 -1 -262144 -1 1786 1;
 #X obj 177 52 hsl 95 19 0 127 0 0 \$0-s-time-1 \$0-r-time-1 TIME-1
-23 -8 0 14 -1 -262144 -1 0 1;
+23 -8 0 14 -1 -262144 -1 3300 1;
 #X obj 112 52 hsl 54 19 0 127 0 0 \$0-s-mod-1 \$0-r-mod-1 MOD-1 6 -7
-0 14 -1 -262144 -1 0 1;
+0 14 -1 -262144 -1 5300 1;
 #X obj 354 50 vsl 19 128 0 127 0 0 \$0-s-vol \$0-r-vol VOL -2 -9 0
-14 -1 -262144 -1 0 1;
+14 -1 -262144 -1 12700 1;
 #X obj 324 50 vsl 19 128 0 127 0 0 \$0-s-dst-mix \$0-r-dst-mix MIX
 -2 -9 0 14 -1 -262144 -1 0 1;
 #X obj 294 50 vsl 19 128 0 127 0 0 \$0-s-drv \$0-r-drv DRV -2 -9 0
-14 -1 -262144 -1 0 1;
+14 -1 -262144 -1 12700 1;
 #X obj 38 49 vsl 19 128 0 127 0 0 \$0-s-f-b \$0-r-f-b F-B -2 -9 0 14
--1 -262144 -1 0 1;
+-1 -262144 -1 4937 1;
 #X obj 8 49 vsl 19 128 0 127 0 0 \$0-s-f-a \$0-r-f-a F-A -2 -9 0 14
--1 -228856 -1 0 1;
+-1 -228856 -1 2393 1;
 #X obj 68 47 vradio 19 1 0 2 \$0-s-andor \$0-r-andor AND -2 -7 0 14
 -1 -262144 -1 0;
 #X obj 68 96 bng 19 50 10 0 empty \$0-r-led empty 17 7 0 10 -1 -4034
@@ -175,53 +175,71 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 312 245 cnv 5 15 15 empty empty SYNTHESIZER 0 3 0 10 -256626
 -1 0;
 #X obj 55 408 cnv 4 4 4 empty empty empty 20 12 0 14 -1 -66577 0;
-#N canvas 966 711 763 300 gui.link 0;
-#X obj 12 12 gui.link 1 \$0 fast-12;
-#X obj 12 32 gui.link 2 \$0 fast-34;
-#X obj 12 52 gui.link 3 \$0 fast-56;
-#X obj 12 72 gui.link 4 \$0 fast-78;
-#X obj 12 102 gui.link 5 \$0 tune-1;
-#X obj 12 122 gui.link 6 \$0 tune-2;
-#X obj 12 142 gui.link 7 \$0 tune-3;
-#X obj 12 162 gui.link 8 \$0 tune-4;
-#X obj 12 182 gui.link 9 \$0 tune-5;
-#X obj 12 202 gui.link 10 \$0 tune-6;
-#X obj 12 222 gui.link 11 \$0 tune-7;
-#X obj 13 242 gui.link 12 \$0 tune-8;
-#X obj 162 12 gui.link 13 \$0 sharp-12;
-#X obj 162 72 gui.link 16 \$0 sharp-78;
-#X obj 162 52 gui.link 15 \$0 sharp-56;
-#X obj 162 32 gui.link 14 \$0 sharp-34;
-#X obj 162 102 gui.link 17 \$0 mod-12;
-#X obj 162 122 gui.link 18 \$0 mod-34;
-#X obj 162 142 gui.link 19 \$0 mod-56;
-#X obj 162 162 gui.link 20 \$0 mod-78;
-#X obj 162 192 gui.link 21 \$0 source-12;
-#X obj 162 212 gui.link 22 \$0 source-34;
-#X obj 162 232 gui.link 23 \$0 source-56;
-#X obj 162 252 gui.link 24 \$0 source-78;
-#X obj 322 12 gui.link 25 \$0 pitch-1234;
-#X obj 322 32 gui.link 26 \$0 pitch-5678;
-#X obj 322 62 gui.link 27 \$0 hold-1234;
-#X obj 322 82 gui.link 28 \$0 hold-5678;
-#X obj 322 122 gui.link 29 \$0 switch;
-#X obj 322 142 gui.link 30 \$0 total-fb;
-#X obj 322 162 gui.link 31 \$0 vibrato;
-#X obj 322 192 gui.link 32 \$0 f-a;
-#X obj 322 212 gui.link 33 \$0 f-b;
-#X obj 322 232 gui.link 34 \$0 andor;
-#X obj 322 252 gui.link 35 \$0 link;
-#X obj 482 12 gui.link 36 \$0 time-1;
-#X obj 482 32 gui.link 37 \$0 time-2;
-#X obj 482 72 gui.link 39 \$0 del-mix;
-#X obj 482 52 gui.link 38 \$0 feedback;
-#X obj 482 112 gui.link 40 \$0 mod-1;
-#X obj 482 132 gui.link 41 \$0 mod-2;
-#X obj 482 152 gui.link 42 \$0 del-mod;
-#X obj 482 172 gui.link 43 \$0 lfo-wav;
-#X obj 482 222 gui.link 45 \$0 dst-mix;
-#X obj 482 242 gui.link 46 \$0 vol;
-#X obj 482 202 gui.link 44 \$0 drv;
+#N canvas 191 498 1414 497 gui.link 0;
+#X obj 394 178 gui.link \$0 1 tune-1;
+#X obj 394 218 gui.link \$0 3 tune-3;
+#X obj 394 238 gui.link \$0 4 tune-4;
+#X obj 394 268 gui.link \$0 5 tune-5;
+#X obj 394 288 gui.link \$0 6 tune-6;
+#X obj 394 308 gui.link \$0 7 tune-7;
+#X obj 394 328 gui.link \$0 8 tune-8;
+#X obj 394 198 gui.link \$0 2 tune-2;
+#X obj 524 178 gui.link \$0 9 fast-12;
+#X obj 524 198 gui.link \$0 10 fast-34;
+#X obj 524 218 gui.link \$0 11 fast-56;
+#X obj 524 238 gui.link \$0 12 fast-78;
+#X obj 524 268 gui.link \$0 13 sharp-12;
+#X obj 524 288 gui.link \$0 14 sharp-34;
+#X obj 524 308 gui.link \$0 15 sharp-56;
+#X obj 524 328 gui.link \$0 16 sharp-78;
+#X obj 674 178 gui.link \$0 17 mod-12;
+#X obj 674 198 gui.link \$0 18 mod-34;
+#X obj 674 218 gui.link \$0 19 mod-56;
+#X obj 674 238 gui.link \$0 20 mod-78;
+#X obj 674 268 gui.link \$0 21 source-12;
+#X obj 674 289 gui.link \$0 22 source-34;
+#X obj 674 308 gui.link \$0 23 source-56;
+#X obj 674 328 gui.link \$0 24 source-78;
+#X obj 208 326 text define \$0-parameters;
+#X obj 58 258 r \$0-write;
+#X obj 58 279 del 100;
+#X obj 208 207 t b b;
+#X obj 208 249 s \$0-loadbang-1;
+#X obj 235 228 s \$0-loadbang-0;
+#X msg 208 300 read ./parameters.txt;
+#X msg 58 300 write ./parameters.txt;
+#X obj 208 279 r \$0-loadbang-0;
+#X obj 208 186 loadbang;
+#X obj 834 178 gui.link \$0 25 pitch-1234;
+#X obj 834 198 gui.link \$0 26 pitch-5678;
+#X obj 834 228 gui.link \$0 27 hold-1234;
+#X obj 834 248 gui.link \$0 28 hold-5678;
+#X obj 834 298 gui.link \$0 30 total-fb;
+#X obj 834 278 gui.link \$0 29 switch;
+#X obj 834 318 gui.link \$0 31 vibrato;
+#X obj 1004 178 gui.link \$0 32 drv;
+#X obj 1004 218 gui.link \$0 34 vol;
+#X obj 1004 198 gui.link \$0 33 dst-mix;
+#X obj 1004 248 gui.link \$0 35 f-a;
+#X obj 1004 268 gui.link \$0 36 f-b;
+#X obj 1004 288 gui.link \$0 37 andor;
+#X obj 1004 308 gui.link \$0 38 link;
+#X obj 1154 178 gui.link \$0 39 time-1;
+#X obj 1154 198 gui.link \$0 40 time-2;
+#X obj 1154 218 gui.link \$0 41 feedback;
+#X obj 1154 238 gui.link \$0 42 del-mix;
+#X obj 1154 268 gui.link \$0 43 mod-1;
+#X obj 1154 288 gui.link \$0 44 mod-2;
+#X obj 1154 308 gui.link \$0 45 del-mod;
+#X obj 1154 328 gui.link \$0 46 lfo-wav;
+#X connect 25 0 26 0;
+#X connect 26 0 31 0;
+#X connect 27 0 28 0;
+#X connect 27 1 29 0;
+#X connect 30 0 24 0;
+#X connect 31 0 24 0;
+#X connect 32 0 30 0;
+#X connect 33 0 27 0;
 #X restore 18 765 pd gui.link;
 #X obj 18 725 declare -path ./abs;
 #N canvas 823 425 450 146 keyboard 0;
@@ -341,9 +359,9 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 148 170 cnv 3 11 3 empty empty empty 20 12 0 14 -1 -66577 0
 ;
 #X obj 177 162 hsl 95 19 0 127 0 0 \$0-s-del-mix \$0-r-del-mix MIX
-35 -7 0 14 -1 -262144 -1 0 1;
+35 -7 0 14 -1 -262144 -1 6784 1;
 #X obj 177 126 hsl 95 19 0 127 0 0 \$0-s-feedback \$0-r-feedback FEEDBACK
-16 -7 0 14 -1 -262144 -1 0 1;
+16 -7 0 14 -1 -262144 -1 5718 1;
 #X obj 18 811 text define -k \$0-tune;
 #A set -16 93 \; -16 93 \; 7 109 \; 9 107 \; 20 116.54 \; 20 116.54
 \; 33 126.24 \; 33 131.22 \;;
