@@ -1,5 +1,0 @@
-type instrument;
-iolayout 0 2;
-code Lira;
-midiin true;
-compatibility 1.0.6;
