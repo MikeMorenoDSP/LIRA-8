@@ -272,13 +272,14 @@
 #X obj 387 347 outlet~;
 #X obj 12 30 inlet~;
 #X obj 12 51 abs~;
-#X obj 406 258 /~ 4;
+#X obj 406 208 /~ 4;
 #X text 157 330 (O1) Square;
 #X text 387 367 (O2) Triangle;
 #X obj 387 326 -~ 0.145;
 #X obj 387 305 *~ 2.65;
 #X obj 157 289 *~ 0.59;
 #X obj 344 43 inlet~;
+#X obj 406 229 max~ 200;
 #X connect 0 0 32 0;
 #X connect 1 0 8 0;
 #X connect 1 0 7 0;
@@ -309,8 +310,9 @@
 #X connect 27 0 1 0;
 #X connect 27 0 2 0;
 #X connect 27 0 28 0;
-#X connect 28 0 0 1;
+#X connect 28 0 35 0;
 #X connect 31 0 25 0;
 #X connect 32 0 31 0;
 #X connect 33 0 12 0;
 #X connect 34 0 20 0;
+#X connect 35 0 0 1;
