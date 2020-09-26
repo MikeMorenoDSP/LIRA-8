@@ -4,13 +4,13 @@
 #X obj 11 11 cnv 19 383 675 empty empty LIRA•8 308 195 0 20 -256626
 -1 0;
 #X obj 38 458 vsl 19 128 0 127 0 0 \$0-s-tune-1 \$0-r-tune-1 TUNE -5
--9 0 14 -262144 -1 -1 4200 1;
+-9 0 14 -262144 -1 -1 6100 1;
 #X obj 41 413 hsl 54 19 0 127 0 0 \$0-s-sharp-12 \$0-r-sharp-12 SHARP
 5 -7 0 14 -1 -262144 -1 0 1;
 #X obj 41 373 hsl 54 19 0 127 0 0 \$0-s-mod-12 \$0-r-mod-12 MOD 14
 -7 0 14 -1 -262144 -1 0 1;
 #X obj 78 458 vsl 19 128 0 127 0 0 \$0-s-tune-2 \$0-r-tune-2 TUNE -5
--9 0 14 -262144 -1 -1 7700 1;
+-9 0 14 -262144 -1 -1 7500 1;
 #X obj 59 604 tgl 17 0 \$0-s-fast-12 \$0-r-fast-12 FAST -5 -7 0 12
 -262144 -1 -1 1 1;
 #X obj 33 626 cnv 19 29 50 empty empty empty 20 12 0 14 -1 -66577 0
@@ -46,27 +46,27 @@
 #X obj 348 650 tgl 19 0 \$0-s-sensor-8 \$0-r-sensor-8 8 5 -10 0 14
 -262144 -1 -262144 0 1;
 #X obj 39 289 hsl 128 19 0 127 0 0 \$0-s-pitch-1234 \$0-r-pitch-1234
-PITCH 40 -7 0 14 -1 -262144 -1 6500 1;
+PITCH 40 -7 0 14 -1 -262144 -1 6300 1;
 #X obj 239 289 hsl 128 19 0 127 0 0 \$0-s-pitch-5678 \$0-r-pitch-5678
-PITCH 40 -7 0 14 -1 -262144 -1 5800 1;
-#X obj 39 333 hradio 19 1 0 3 \$0-s-source-12 \$0-r-source-12 OFF 17
--7 0 14 -262144 -1 -1 1;
+PITCH 40 -7 0 14 -1 -262144 -1 6200 1;
+#X obj 39 333 hradio 19 1 0 3 \$0-s-source-12 \$0-r-source-12 LFO-CV
+4 -7 0 14 -262144 -1 -1 2;
 #X obj 128 458 vsl 19 128 0 127 0 0 \$0-s-tune-3 \$0-r-tune-3 TUNE
--5 -9 0 14 -262144 -1 -1 4400 1;
+-5 -9 0 14 -262144 -1 -1 6000 1;
 #X obj 168 458 vsl 19 128 0 127 0 0 \$0-s-tune-4 \$0-r-tune-4 TUNE
--5 -10 0 14 -262144 -1 -1 7700 1;
+-5 -10 0 14 -262144 -1 -1 6700 1;
 #X obj 218 458 vsl 19 128 0 127 0 0 \$0-s-tune-5 \$0-r-tune-5 TUNE
--5 -10 0 14 -262144 -1 -1 5600 1;
+-5 -10 0 14 -262144 -1 -1 7500 1;
 #X obj 258 458 vsl 19 128 0 127 0 0 \$0-s-tune-6 \$0-r-tune-6 TUNE
--5 -10 0 14 -262144 -1 -1 6800 1;
+-5 -10 0 14 -262144 -1 -1 7700 1;
 #X obj 308 458 vsl 19 128 0 127 0 0 \$0-s-tune-7 \$0-r-tune-7 TUNE
--5 -10 0 14 -262144 -1 -1 5200 1;
+-5 -10 0 14 -262144 -1 -1 7300 1;
 #X obj 348 458 vsl 19 128 0 127 0 0 \$0-s-tune-8 \$0-r-tune-8 TUNE
--5 -10 0 14 -262144 -1 -1 5900 1;
+-5 -10 0 14 -262144 -1 -1 7500 1;
 #X obj 131 413 hsl 54 19 0 127 0 0 \$0-s-sharp-34 \$0-r-sharp-34 SHARP
 5 -7 0 14 -1 -262144 -1 0 1;
 #X obj 221 413 hsl 54 19 0 127 0 0 \$0-s-sharp-56 \$0-r-sharp-56 SHARP
-5 -7 0 14 -1 -262144 -1 3100 1;
+5 -7 0 14 -1 -262144 -1 0 1;
 #X obj 311 413 hsl 54 19 0 127 0 0 \$0-s-sharp-78 \$0-r-sharp-78 SHARP
 5 -7 0 14 -1 -262144 -1 0 1;
 #X obj 131 373 hsl 54 19 0 127 0 0 \$0-s-mod-34 \$0-r-mod-34 MOD 14
@@ -137,12 +137,12 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 ;
 #X obj 11 172 cnv 3 383 3 empty empty empty 20 12 0 14 -1 -66577 0
 ;
-#X obj 129 333 hradio 19 1 0 3 \$0-s-source-34 \$0-r-source-34 OFF
-17 -7 0 14 -262144 -1 -1 1;
-#X obj 219 333 hradio 19 1 0 3 \$0-s-source-56 \$0-r-source-56 OFF
-17 -7 0 14 -262144 -1 -1 1;
-#X obj 309 333 hradio 19 1 0 3 \$0-s-source-78 \$0-r-source-78 OFF
-17 -7 0 14 -262144 -1 -1 1;
+#X obj 129 333 hradio 19 1 0 3 \$0-s-source-34 \$0-r-source-34 LFO-CV
+4 -7 0 14 -262144 -1 -1 2;
+#X obj 219 333 hradio 19 1 0 3 \$0-s-source-56 \$0-r-source-56 LFO-CV
+4 -7 0 14 -262144 -1 -1 2;
+#X obj 309 333 hradio 19 1 0 3 \$0-s-source-78 \$0-r-source-78 LFO-CV
+4 -7 0 14 -262144 -1 -1 2;
 #X obj 39 246 hsl 128 19 0 127 0 0 \$0-s-hold-1234 \$0-r-hold-1234
 HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 409 931 route 1 2 3 4 5 6 7 8;
@@ -152,23 +152,23 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 120 111 hradio 19 1 0 3 \$0-s-del-mod \$0-r-del-mod LFO 0 -7
 0 14 -1 -262144 -1 2;
 #X obj 188 73 hsl 95 19 0 127 0 0 \$0-s-time-2 \$0-r-time-2 TIME-2
-23 -7 0 14 -1 -262144 -1 5400 1;
+23 -7 0 14 -1 -262144 -1 3800 1;
 #X obj 123 73 hsl 54 19 0 127 0 0 \$0-s-mod-2 \$0-r-mod-2 MOD-2 6 -7
-0 14 -1 -262144 -1 0 1;
+0 14 -1 -262144 -1 1100 1;
 #X obj 188 37 hsl 95 19 0 127 0 0 \$0-s-time-1 \$0-r-time-1 TIME-1
-23 -8 0 14 -1 -262144 -1 4700 1;
+23 -8 0 14 -1 -262144 -1 5400 1;
 #X obj 123 37 hsl 54 19 0 127 0 0 \$0-s-mod-1 \$0-r-mod-1 MOD-1 6 -7
-0 14 -1 -262144 -1 0 1;
+0 14 -1 -262144 -1 1200 1;
 #X obj 365 35 vsl 19 128 0 127 0 0 \$0-s-vol \$0-r-vol VOL -2 -9 0
 14 -1 -262144 -1 12700 1;
 #X obj 335 35 vsl 19 128 0 127 0 0 \$0-s-dst-mix \$0-r-dst-mix MIX
--2 -9 0 14 -1 -262144 -1 5800 1;
+-2 -9 0 14 -1 -262144 -1 9800 1;
 #X obj 305 35 vsl 19 128 0 127 0 0 \$0-s-drv \$0-r-drv DRV -2 -9 0
-14 -1 -262144 -1 6000 1;
+14 -1 -262144 -1 6800 1;
 #X obj 49 34 vsl 19 128 0 127 0 0 \$0-s-f-b \$0-r-f-b F-B -2 -9 0 14
--1 -262144 -1 7300 1;
+-1 -262144 -1 6300 1;
 #X obj 19 34 vsl 19 128 0 127 0 0 \$0-s-f-a \$0-r-f-a F-A -2 -9 0 14
--1 -228856 -1 8100 1;
+-1 -228856 -1 2800 1;
 #X obj 79 32 vradio 19 1 0 2 \$0-s-andor \$0-r-andor OR 2 -7 0 14 -1
 -262144 -1 1;
 #X obj 79 81 bng 19 50 10 0 empty \$0-r-led empty 17 7 0 10 -1 -4034
@@ -361,9 +361,9 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 159 155 cnv 3 11 3 empty empty empty 20 12 0 14 -1 -66577 0
 ;
 #X obj 188 147 hsl 95 19 0 127 0 0 \$0-s-del-mix \$0-r-del-mix MIX
-35 -7 0 14 -1 -262144 -1 4000 1;
+35 -7 0 14 -1 -262144 -1 4500 1;
 #X obj 188 111 hsl 95 19 0 127 0 0 \$0-s-feedback \$0-r-feedback FEEDBACK
-16 -7 0 14 -1 -262144 -1 3800 1;
+16 -7 0 14 -1 -262144 -1 4600 1;
 #X obj 29 796 text define -k \$0-tune;
 #A set -16 93 \; -16 93 \; 7 109 \; 9 107 \; 20 116.54 \; 20 116.54
 \; 33 126.24 \; 33 131.22 \;;
@@ -381,62 +381,65 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 275 572 line~;
 #X obj 67 588 *~;
 #X obj 12 176 inlet~;
-#X obj 97 11 r \$0-s-drv;
+#X obj 112 11 r \$0-s-drv;
 #X obj 275 509 pow 2;
 #X obj 67 609 outlet~;
-#X obj 97 32 / 127;
-#X obj 97 116 pow;
-#X obj 97 158 + 100;
-#X obj 97 179 dbtorms;
-#X msg 97 200 \$1 23.22;
+#X obj 112 32 / 127;
+#X obj 112 116 pow;
+#X obj 112 158 + 100;
+#X obj 112 179 dbtorms;
+#X msg 112 200 \$1 23.22;
 #X msg 275 551 \$1 23.22;
-#X obj 97 221 line~;
-#X obj 82 242 *~;
-#X obj 82 284 ma.tanh~;
-#X obj 147 380 r \$0-s-dst-mix;
-#X obj 147 401 / 127;
-#X msg 147 422 \$1 23.22;
-#X obj 147 443 line~;
+#X obj 112 221 line~;
+#X obj 97 242 *~;
+#X obj 97 284 ma.tanh~;
+#X obj 207 380 r \$0-s-dst-mix;
+#X obj 207 401 / 127;
+#X msg 207 422 \$1 23.22;
+#X obj 207 443 line~;
 #X obj 82 469 *~;
 #X obj 27 438 sig~ 1;
 #X obj 27 459 -~;
 #X obj 12 480 *~;
 #X obj 67 506 +~;
-#X obj 275 530 * 0.9;
-#X obj 82 368 hip~ 10;
-#X obj 97 74 + 1;
-#X obj 82 347 +~;
-#X obj 97 326 /~ 4;
-#X obj 97 305 pow~ 31;
-#X obj 82 263 hip~ 20;
+#X obj 97 368 hip~ 10;
+#X obj 112 74 + 1;
+#X obj 97 347 +~;
+#X obj 112 326 /~ 4;
+#X obj 112 305 pow~ 31;
+#X obj 97 263 hip~ 20;
 #X obj 31 384 *~ 0.1;
-#X obj 82 389 *~ 0.9;
-#X obj 31 405 +~;
+#X obj 82 415 +~;
 #X obj 67 527 ma.tanh~;
 #X obj 87 562 s~ \$0-total-feedback;
-#X obj 82 430 /~ 4;
-#X msg 97 94 3 \$1;
-#X obj 97 53 * 2;
-#X obj 97 137 + 3;
+#X msg 112 94 3 \$1;
+#X obj 112 53 * 2;
+#X obj 112 137 + 3;
+#X obj 275 530 * 1;
+#X obj 153 352 sig~ 1;
+#X obj 153 373 /~;
+#X obj 97 389 *~;
+#X obj 168 331 clip~ 1 4;
 #X connect 0 0 1 0;
 #X connect 1 0 6 0;
 #X connect 2 0 3 1;
 #X connect 3 0 7 0;
 #X connect 4 0 24 0;
 #X connect 4 0 15 0;
-#X connect 4 0 33 0;
+#X connect 4 0 32 0;
 #X connect 5 0 8 0;
-#X connect 6 0 26 0;
-#X connect 8 0 40 0;
-#X connect 9 0 41 0;
+#X connect 6 0 39 0;
+#X connect 8 0 37 0;
+#X connect 9 0 38 0;
 #X connect 10 0 11 0;
 #X connect 11 0 12 0;
 #X connect 12 0 14 0;
 #X connect 13 0 2 0;
 #X connect 14 0 15 1;
-#X connect 15 0 32 0;
-#X connect 16 0 29 0;
-#X connect 16 0 31 0;
+#X connect 14 0 43 0;
+#X connect 15 0 31 0;
+#X connect 16 0 28 0;
+#X connect 16 0 30 0;
 #X connect 17 0 18 0;
 #X connect 18 0 19 0;
 #X connect 19 0 20 0;
@@ -446,23 +449,25 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X connect 22 0 23 0;
 #X connect 23 0 24 1;
 #X connect 24 0 25 0;
-#X connect 25 0 36 0;
-#X connect 26 0 13 0;
-#X connect 27 0 34 0;
-#X connect 28 0 39 0;
-#X connect 29 0 27 0;
-#X connect 30 0 29 1;
-#X connect 31 0 30 0;
-#X connect 32 0 16 0;
-#X connect 33 0 35 0;
-#X connect 34 0 35 1;
-#X connect 35 0 38 0;
-#X connect 36 0 3 0;
-#X connect 36 0 37 0;
-#X connect 38 0 21 0;
-#X connect 39 0 9 0;
-#X connect 40 0 28 0;
-#X connect 41 0 10 0;
+#X connect 25 0 34 0;
+#X connect 26 0 42 0;
+#X connect 27 0 36 0;
+#X connect 28 0 26 0;
+#X connect 29 0 28 1;
+#X connect 30 0 29 0;
+#X connect 31 0 16 0;
+#X connect 32 0 33 0;
+#X connect 33 0 21 0;
+#X connect 34 0 3 0;
+#X connect 34 0 35 0;
+#X connect 36 0 9 0;
+#X connect 37 0 27 0;
+#X connect 38 0 10 0;
+#X connect 39 0 13 0;
+#X connect 40 0 41 0;
+#X connect 41 0 42 1;
+#X connect 42 0 33 1;
+#X connect 43 0 41 1;
 #X restore 405 661 pd master_output;
 #X obj 435 563 lira.voice \$0 3 4;
 #X obj 595 511 lira.voice \$0 5 6;
@@ -1008,7 +1013,6 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X obj 405 318 int;
 #X obj 405 360 s \$0-r-cpu;
 #X msg 139 931 LIRA-8 by Mike Moreno DSP 2020;
-#X obj 405 620 /~ 8;
 #X msg 405 234 1;
 #N canvas 1027 619 248 280 prm.hold 0;
 #X obj 12 96 line~;
@@ -1036,6 +1040,10 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X connect 4 0 5 0;
 #X connect 5 0 3 0;
 #X restore 694 469 pd prm.hold;
+#X obj 405 620 /~ 6;
+#X msg 689 627 open ./test.wav \, start;
+#X obj 689 648 writesf~;
+#X msg 691 603 stop;
 #X connect 59 0 60 0;
 #X connect 60 0 61 0;
 #X connect 61 0 67 0;
@@ -1055,11 +1063,12 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X connect 181 0 182 0;
 #X connect 182 0 183 0;
 #X connect 184 0 180 1;
-#X connect 185 0 221 0;
+#X connect 185 0 224 0;
 #X connect 186 0 212 0;
-#X connect 187 0 221 0;
-#X connect 188 0 221 0;
-#X connect 189 0 221 0;
+#X connect 186 0 226 0;
+#X connect 187 0 224 0;
+#X connect 188 0 224 0;
+#X connect 189 0 224 0;
 #X connect 190 0 185 0;
 #X connect 191 0 187 0;
 #X connect 192 0 188 0;
@@ -1080,19 +1089,21 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X connect 210 0 211 0;
 #X connect 211 0 209 0;
 #X connect 213 0 218 0;
-#X connect 214 0 222 0;
+#X connect 214 0 221 0;
 #X connect 215 0 216 0;
 #X connect 216 0 213 0;
 #X connect 216 1 213 1;
 #X connect 217 0 219 0;
 #X connect 218 0 217 0;
 #X connect 220 0 201 0;
-#X connect 221 0 197 0;
-#X connect 222 0 215 0;
-#X connect 223 0 187 2;
-#X connect 223 0 185 2;
-#X connect 224 0 188 2;
-#X connect 224 0 189 2;
+#X connect 221 0 215 0;
+#X connect 222 0 187 2;
+#X connect 222 0 185 2;
+#X connect 223 0 188 2;
+#X connect 223 0 189 2;
+#X connect 224 0 197 0;
+#X connect 225 0 226 0;
+#X connect 227 0 226 0;
 #X coords 0 -1 1 1 385 677 2 10 10;
 #X restore 12 12 pd gui;
 #X obj 427 170 tgl 19 0 \$0-s-dsp \$0-r-dsp DSP 0 -8 0 12 -262144 -1
@@ -1101,7 +1112,7 @@ HOLD 45 -7 0 14 -1 -262144 -1 0 1;
 #X text 420 65 2) USE THE MOUSE TO MOVE THE PARAMETERS;
 #X text 420 85 3) ENJOY!;
 #X obj 427 133 nbx 3 16 -1e+37 1e+37 0 0 \$0-s-cpu \$0-r-cpu CPU(%)
-0 -8 0 10 -262144 -1 -1 8 256;
+0 -8 0 10 -262144 -1 -1 9 256;
 #X obj 12 694 dac~ 1 2;
 #X msg 411 27 INSTRUCTIONS;
 #X text 210 694 LIRA-8 by Mike Moreno DSP 2020;
