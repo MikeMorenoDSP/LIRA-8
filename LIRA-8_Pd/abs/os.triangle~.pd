@@ -279,7 +279,7 @@
 #X obj 387 305 *~ 2.65;
 #X obj 157 289 *~ 0.59;
 #X obj 344 43 inlet~;
-#X obj 406 229 max~ 200;
+#X obj 406 229 max~ 100;
 #X connect 0 0 32 0;
 #X connect 1 0 8 0;
 #X connect 1 0 7 0;
