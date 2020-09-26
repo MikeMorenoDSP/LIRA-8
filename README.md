@@ -21,7 +21,7 @@ Made with Pure Data and Camomile.
 
 ### Author
 
-- [Miguel Moreno](https://github.com/MikeMorenoDSP)
+- [Mike Moreno DSP](https://github.com/MikeMorenoDSP)
 
 ### Credits
 
