@@ -5,7 +5,7 @@
 The Lira-8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow.
 
 <h2 align="center">
-  <a href="https://gum.co/lira-8">Download LIRA-8 v2.2</a>
+  <a href="https://gum.co/lira-8">Download LIRA-8</a>
 </h2>
 
 The Lyra 8 is a Russian drone synthesizer with 8 tunable voices each, FM, dual delay, hyper LFO and distortion.
