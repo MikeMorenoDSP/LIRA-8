@@ -31,7 +31,7 @@
 #X obj 282 12 r~ \$1-sqr-lfo;
 #X obj 412 12 r~ \$1-total-feedback;
 #X obj 142 12 r~ \$1-del-\$6\$7;
-#X obj 12 12 r~ \$1-del-\$6\$7;
+#X obj 12 12 r~ \$1-del-\$4\$5;
 #X connect 0 0 16 0;
 #X connect 1 0 28 0;
 #X connect 2 0 28 0;
