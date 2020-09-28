@@ -12,6 +12,10 @@ The Lyra 8 is a Russian drone synthesizer with 8 tunable voices each, FM, dual d
 
 It makes it optimal for drones, ambient landscapes, outer space sounds, etc.
 
+[LYRA-8 MANUAL (English)](https://somasynths.com/wp-content/uploads/2020/09/LYRA-8_manual_Eng_V2_1.pdf)
+
+[How to install plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
+
 **Disclaimer: The Lira-8 project is not affiliated and does not represent SOMA laboratories.**
 
 
