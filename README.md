@@ -1,8 +1,8 @@
-# LIRA-8
+# LIRA•8
 
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mianmogra)
 
-The Lira-8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow.
+The Lira•8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow.
 
 <h2 align="center">
   <a href="https://gum.co/lira-8">Download LIRA-8</a>
@@ -16,7 +16,7 @@ It makes it optimal for drones, ambient landscapes, outer space sounds, etc.
 
 [How to install plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
 
-**Disclaimer: The Lira-8 project is not affiliated and does not represent SOMA laboratories.**
+**Disclaimer: The Lira•8 project is not affiliated and does not represent SOMA laboratories.**
 
 
 Made with Pure Data and Camomile.
