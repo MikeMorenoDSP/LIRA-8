@@ -15,7 +15,7 @@ It makes it optimal for drones, ambient landscapes, outer space sounds, etc.
 
 ### Instructions
 
-Use midi notes from C2 to G#2 to trigger the sensors or click on them to hold the note.
+Use midi notes from C2 to G2 to trigger the sensors or click on them to hold the note.
 
 Use keys from 1 to 8 the Pd standalone version to trigger the sensors.
 
