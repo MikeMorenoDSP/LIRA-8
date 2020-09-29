@@ -2,7 +2,7 @@
 
 [![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mianmogra)
 
-The Lira•8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow.
+The Lira•8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow and sound.
 
 <h2 align="center">
   <a href="https://gum.co/lira-8">Download LIRA•8</a>
