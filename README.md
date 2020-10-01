@@ -13,7 +13,7 @@ The Lyra 8 is a Russian drone synthesizer with 8 tunable voices each, FM, dual d
 It makes it optimal for drones, ambient landscapes, outer space sounds, etc.
 
 
-### Instructions
+### Instructions / Installation
 
 Use midi notes from C2 to G2 to trigger the sensors or click on them to hold the note.
 
