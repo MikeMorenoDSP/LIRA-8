@@ -19,11 +19,13 @@ Use midi notes from C2 to G2 to trigger the sensors or click on them to hold the
 
 Use keys from 1 to 8 in the Pd standalone version to trigger the sensors.
 
-[Download Pure Data to run the standalone version.](http://msp.ucsd.edu/software.html)
+- [Download Pure Data to run the standalone version.](http://msp.ucsd.edu/software.html)
 
-[How to install plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
+- [How to install plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
 
-[LYRA-8 MANUAL (English)](https://somasynths.com/wp-content/uploads/2020/09/LYRA-8_manual_Eng_V2_1.pdf)
+- [Help with plugins from an unidentified developer in macOS Catalina](https://www.reddit.com/r/MacOS/comments/ge4v0w/help_with_vst_plugins_from_an_unidentified/)
+
+- [LYRA-8 MANUAL (English)](https://somasynths.com/wp-content/uploads/2020/09/LYRA-8_manual_Eng_V2_1.pdf)
 
 
 **Disclaimer: The Lira•8 project is not affiliated and does not represent SOMA laboratories.**
