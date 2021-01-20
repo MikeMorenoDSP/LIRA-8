@@ -25,7 +25,9 @@ Use keys from 1 to 8 in the Pd standalone version to trigger the sensors.
 
 - [Help with plugins from an unidentified developer in macOS Catalina](https://www.reddit.com/r/MacOS/comments/ge4v0w/help_with_vst_plugins_from_an_unidentified/)
 
-- [How to make unsigned VSTs work in MacOS Catalina](https://www.osirisguitar.com/how-to-make-unsigned-vsts-work-in-macos-catalina/)
+- [How to open unidentified VSTs on MacOS Catalina](https://www.reddit.com/r/MacOS/comments/dpue7j/2019_macbook_pro_running_catalina_unidentified/)
+
+- [Safely open apps on your Mac](https://support.apple.com/en-us/HT202491)
 
 - [LYRA-8 MANUAL](https://somasynths.com/lyra8_specs/)
 
