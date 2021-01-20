@@ -15,17 +15,15 @@ It makes it optimal for drones, ambient landscapes, outer space sounds, etc.
 
 ### Instructions / Installation
 
-Use midi notes from C2 to G2 to trigger the sensors or click on them to hold the note.
+Use midi notes from C1 to G1 to trigger the sensors or click on them to hold the note.
 
 Use keys from 1 to 8 in the Pd standalone version to trigger the sensors.
 
 - [Download Pure Data to run the standalone version.](http://msp.ucsd.edu/software.html)
 
-- [How to install plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
+- [How to install Camomile plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
 
-- [Help with plugins from an unidentified developer in macOS Catalina](https://www.reddit.com/r/MacOS/comments/ge4v0w/help_with_vst_plugins_from_an_unidentified/)
-
-- [How to open unidentified VSTs on MacOS Catalina](https://www.reddit.com/r/MacOS/comments/dpue7j/2019_macbook_pro_running_catalina_unidentified/)
+- [How to open unidentified VSTs on macOS Catalina](https://www.reddit.com/r/MacOS/comments/dpue7j/2019_macbook_pro_running_catalina_unidentified/)
 
 - [Safely open apps on your Mac](https://support.apple.com/en-us/HT202491)
 
