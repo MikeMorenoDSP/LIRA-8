@@ -50,3 +50,5 @@ param -name Del:Waveform -list TRIANGLE/SQUARE -default 0;
 param -name Dist:Drive -min 0 -max 127 -nsteps 128 -default 64;
 param -name Dist:Mix -min 0 -max 127 -nsteps 128 -default 64;
 param -name Volume -min 0 -max 127 -nsteps 128 -default 127;
+param -name Quantize -min 0 -max 1 -nsteps 2 -default 0;
+manufacturer Mike Moreno DSP;
