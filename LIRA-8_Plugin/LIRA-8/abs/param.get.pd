@@ -1,0 +1,18 @@
+#N canvas 582 337 222 276 10;
+#X obj 6 41 route \$1;
+#X obj 33 108 outlet;
+#X obj 6 239 send \$2;
+#X obj 6 216 spigot 0;
+#X obj 6 85 t f f;
+#X obj 51 130 loadbang;
+#X obj 6 19 receive param;
+#X obj 6 63 change -1e+37;
+#X msg 51 151 1;
+#X connect 0 0 7 0;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;
+#X connect 4 1 1 0;
+#X connect 5 0 8 0;
+#X connect 6 0 0 0;
+#X connect 7 0 4 0;
+#X connect 8 0 3 1;

@@ -1,7 +1,0 @@
-#N canvas 497 514 400 118 10;
-#X msg 12 54 set \$1;
-#X obj 12 12 param.set \$1 \$2-s-\$3;
-#X obj 12 75 s \$2-r-\$3;
-#X obj 12 33 param.get \$1 \$2-\$3;
-#X connect 0 0 2 0;
-#X connect 3 0 0 0;
