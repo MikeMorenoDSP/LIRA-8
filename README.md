@@ -19,16 +19,19 @@ Use midi notes from C1 to G1 to trigger the sensors or click on them to hold the
 
 Use keys from 1 to 8 in the Pd standalone version to trigger the sensors.
 
+- [LYRA-8 MANUAL](https://somasynths.com/lyra8_specs/)
+
 - [Download Pure Data to run the standalone version.](http://msp.ucsd.edu/software.html)
 
 - [How to install Camomile plugins](https://github.com/pierreguillot/Camomile/wiki/How-to-install-plugins)
 
-- [How to open unidentified VSTs on macOS Catalina](https://www.reddit.com/r/MacOS/comments/dpue7j/2019_macbook_pro_running_catalina_unidentified/)
+For macOS users higher than 10.13.6 (Mojave and up)
+
+- [How to open apps from unidentified developers on Mac](https://www.imore.com/how-open-apps-anywhere-macos-catalina-and-mojave)
+
+- [How to make unsigned VSTs work in macOS Catalina](https://www.osirisguitar.com/how-to-make-unsigned-vsts-work-in-macos-catalina/)
 
 - [Safely open apps on your Mac](https://support.apple.com/en-us/HT202491)
-
-- [LYRA-8 MANUAL](https://somasynths.com/lyra8_specs/)
-
 
 **Disclaimer: The Lira•8 project is not affiliated and does not represent SOMA laboratories.**
 
